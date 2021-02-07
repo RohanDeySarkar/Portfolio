@@ -34,6 +34,7 @@
 }
 
 .skill {
+    /* width: fit-content; */
     padding: 15px;
     border-radius: 40px;
     color: black;
@@ -62,6 +63,7 @@
 .project:hover {
     transition: 400ms;
     transform: scale(1.03);
+    opacity: 0.8;
 }
 
 .project > p {
@@ -72,4 +74,32 @@
     height: 300px;
     width: 400px;
     object-fit: contain;
+}
+
+.body__resume {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: rgb(218, 218, 218);
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.body__resume > .MuiSvgIcon-root {
+    font-size: 40px;
+    margin-top: 5px;
+}
+
+.body__resume > h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 5px;
+    padding-left: 10px;
+}
+
+.body__resume:hover {
+    color: white;
+    transition: 200ms ease-in-out;
 }

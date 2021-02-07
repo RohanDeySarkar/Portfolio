@@ -8,6 +8,8 @@ import "react-multi-carousel/lib/styles.css";
 
 import {skills, projects} from "../data";
 
+import GetAppIcon from '@material-ui/icons/GetApp';
+
 const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -78,6 +80,15 @@ function Body() {
                         </Carousel>
                     </div>
                 </div>
+                
+                <div 
+                    className="body__resume"
+                    onClick={() => window.open("https://drive.google.com/file/d/1ZXh9H4a4skU6fxTcZC3SFOf5p1vPwXsP/view?usp=sharing", '_blank')}
+                >
+                    <GetAppIcon />
+                    <h1>Resume</h1>
+                </div>
+                    
             </Fade>
         </div>
     )
