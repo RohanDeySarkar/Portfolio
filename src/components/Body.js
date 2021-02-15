@@ -35,6 +35,28 @@ function Body() {
         <div className="body">
             <Fade bottom>
                 <div className="body__card">
+                    <h1>Projects</h1>
+
+                    <div className="projects">
+                        <Carousel responsive={responsive}>
+                            {projects.map(({image, title, description, url}) => 
+                                <div 
+                                    className="project"
+                                    onClick={() => window.open(url, '_blank')}
+                                >
+                                    <img
+                                        src={image}
+                                        alt=""
+                                    />
+                                    <h3>{title}</h3>
+                                    <p>{description}</p>
+                                </div>
+                            )}
+                        </Carousel>
+                    </div>
+                </div>
+
+                <div className="body__card">
                     <h1>About Me</h1>
 
                     <p>
@@ -59,31 +81,11 @@ function Body() {
                     </div>
                 </div>
 
-                <div className="body__card">
-                    <h1>Projects</h1>
-
-                    <div className="projects">
-                        <Carousel responsive={responsive}>
-                            {projects.map(({image, title, description, url}) => 
-                                <div 
-                                    className="project"
-                                    onClick={() => window.open(url, '_blank')}
-                                >
-                                    <img
-                                        src={image}
-                                        alt=""
-                                    />
-                                    <h3>{title}</h3>
-                                    <p>{description}</p>
-                                </div>
-                            )}
-                        </Carousel>
-                    </div>
-                </div>
+                
                 
                 <div 
                     className="body__resume"
-                    onClick={() => window.open("https://drive.google.com/file/d/1ZXh9H4a4skU6fxTcZC3SFOf5p1vPwXsP/view?usp=sharing", '_blank')}
+                    onClick={() => window.open("https://drive.google.com/file/d/1C0jBsS9_HJJi5E3yS9FycOAmY52xMAD7/view?usp=sharing", '_blank')}
                 >
                     <GetAppIcon />
                     <h1>Resume</h1>
