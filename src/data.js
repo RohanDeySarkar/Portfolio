@@ -6,6 +6,12 @@ export const projects = [
         url: "https://github.com/RohanDeySarkar/Amazon-clone"
     },
     {
+        image: "https://github.com/RohanDeySarkar/Slack-clone/raw/master/Screenshot%20(78).png?raw=true",
+        title: "Slack Clone",
+        description: "Authentication, real-time database (fern stack)",
+        url: "https://github.com/RohanDeySarkar/Slack-clone"
+    },
+    {
         image: "https://github.com/RohanDeySarkar/Code-editor/raw/master/sampleImg.png?raw=true",
         title: "JS Code Editor",
         description: "Authentication, upload/edit/save js files",
@@ -80,6 +86,12 @@ export const projects = [
         url: "https://www.kaggle.com/rohandeysarkar/ultimate-image-classification-guide-2020"
     },
     {
+        image: "http://i.stack.imgur.com/mOb2n.png",
+        title: "OpenCV Image Classification",
+        description: "opencv image classification",
+        url: "https://www.youtube.com/watch?v=_BaKsFazN3E"
+    },
+    {
         image: "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F603584%2F4f30bdd2ffddda01f8ec5d857171ca93%2FKaggleCompetition_Description_700x700_option1-orig.png?generation=1588791895230128&alt=media",
         title: "Prediction of  Pulmonary Fibrosis",
         description: "analysing Pulmonary Fibrosis in patients",
@@ -120,6 +132,7 @@ export const skills = [
     "Firebase", 
     "MongoDB",
     "Pusher",
+    "PostgreSQL",
     "Figma", 
     "Pandas", 
     "Numpy", 

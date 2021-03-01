@@ -85,7 +85,7 @@ function Body() {
                 
                 <div 
                     className="body__resume"
-                    onClick={() => window.open("https://drive.google.com/file/d/1C0jBsS9_HJJi5E3yS9FycOAmY52xMAD7/view?usp=sharing", '_blank')}
+                    onClick={() => window.open("https://drive.google.com/file/d/1EgoBtxTVTWi1La-zpZYjeMc-nTTriNaC/view?usp=sharing", '_blank')}
                 >
                     <GetAppIcon />
                     <h1>Resume</h1>
