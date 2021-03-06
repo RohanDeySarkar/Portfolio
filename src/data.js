@@ -1,6 +1,6 @@
 export const projects = [
     {
-        image: "https://camo.githubusercontent.com/81011b7fc2959dbe451ae74253d13a7e3b01dcea2f3597189b99a60e481b0a70/68747470733a2f2f6d656469612d657870312e6c6963646e2e636f6d2f646d732f696d6167652f433536323241514549376d5157454e587770512f6665656473686172652d736872696e6b5f313238302f302f313630353737303335343031303f653d3136313438313630303026763d6265746126743d555a7941794757724934723546393336487846714f797275496c637849485f5a616d4f5234616d367a3563",
+        image: "https://github.com/RohanDeySarkar/Amazon-clone/blob/master/Screenshot%20(95).png?raw=true",
         title: "Amazon Clone",
         description: "Authentication, payment (FERN stack build)",
         url: "https://github.com/RohanDeySarkar/Amazon-clone"
@@ -10,6 +10,12 @@ export const projects = [
         title: "Slack Clone",
         description: "Authentication, real-time database (fern stack)",
         url: "https://github.com/RohanDeySarkar/Slack-clone"
+    },
+    {
+        image: "https://github.com/RohanDeySarkar/E-commerce-assessment-/raw/master/Screenshot%20(92).png?raw=true",
+        title: "E-commerce Website",
+        description: "Authentication, routing (build with redux)",
+        url: "https://github.com/RohanDeySarkar/E-commerce-assessment-"
     },
     {
         image: "https://github.com/RohanDeySarkar/Code-editor/raw/master/sampleImg.png?raw=true",

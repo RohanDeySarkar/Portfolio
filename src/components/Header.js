@@ -11,7 +11,7 @@ function Header() {
         <div className="header">
             <img
                 className="header__image"
-                src="https://instagram.fccu3-1.fna.fbcdn.net/v/t51.2885-19/s320x320/144312926_229827338478056_3526706425058357547_n.jpg?_nc_ht=instagram.fccu3-1.fna.fbcdn.net&_nc_ohc=c0qH2-HLMooAX8rtnkj&tp=1&oh=ccef449a5fbd2418f6813c3bb8491f84&oe=60474507"
+                src="https://media-exp1.licdn.com/dms/image/C5603AQGavq3xCx7fBQ/profile-displayphoto-shrink_400_400/0/1614529958951?e=1620259200&v=beta&t=ZB0y2bCZqom2bloSzxOjiVK4jx7WFuHZVbgDSJSrjrE"
                 alt=""
             />
 
