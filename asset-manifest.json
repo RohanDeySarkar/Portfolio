@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.0b27923f.chunk.css",
+    "main.css": "/Portfolio/static/css/main.93b1f67c.chunk.css",
     "main.js": "/Portfolio/static/js/main.bd247f28.chunk.js",
     "main.js.map": "/Portfolio/static/js/main.bd247f28.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.c342ebf0.js",
@@ -12,7 +12,7 @@
     "static/js/3.addf63e3.chunk.js.map": "/Portfolio/static/js/3.addf63e3.chunk.js.map",
     "index.html": "/Portfolio/index.html",
     "static/css/2.7aa796d3.chunk.css.map": "/Portfolio/static/css/2.7aa796d3.chunk.css.map",
-    "static/css/main.0b27923f.chunk.css.map": "/Portfolio/static/css/main.0b27923f.chunk.css.map",
+    "static/css/main.93b1f67c.chunk.css.map": "/Portfolio/static/css/main.93b1f67c.chunk.css.map",
     "static/js/2.6ab6608c.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.6ab6608c.chunk.js.LICENSE.txt",
     "static/media/kaggle.16cfbd36.svg": "/Portfolio/static/media/kaggle.16cfbd36.svg",
     "static/media/myVideo.4ea8f61c.mp4": "/Portfolio/static/media/myVideo.4ea8f61c.mp4",
@@ -22,7 +22,7 @@
     "static/js/runtime-main.c342ebf0.js",
     "static/css/2.7aa796d3.chunk.css",
     "static/js/2.6ab6608c.chunk.js",
-    "static/css/main.0b27923f.chunk.css",
+    "static/css/main.93b1f67c.chunk.css",
     "static/js/main.bd247f28.chunk.js"
   ]
 }
