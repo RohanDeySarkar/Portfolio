@@ -6,9 +6,11 @@ import Fade from 'react-reveal/Fade';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
-import {skills, projects} from "../data";
+import {skills, projects, aiProjects} from "../data";
 
 import GetAppIcon from '@material-ui/icons/GetApp';
+
+import sampleVideo from '../myVideo.mp4';
 
 const responsive = {
     superLargeDesktop: {
@@ -35,7 +37,60 @@ function Body() {
         <div className="body">
             <Fade bottom>
                 <div className="body__card">
-                    <h1>Projects</h1>
+                    <h1>Machine Learning / AI Projects</h1>
+
+                    <div className="projects">
+                        <Carousel responsive={responsive}>
+                            {aiProjects.map(({image, title, description, url}) => 
+                                <div 
+                                    className="project"
+                                    onClick={() => window.open(url, '_blank')}
+                                >
+                                    <img
+                                        src={image}
+                                        alt=""
+                                    />
+                                    <h3>{title}</h3>
+                                    <p>{description}</p>
+                                </div>
+                            )}
+                        </Carousel>
+                    </div>
+                </div>
+
+                <div className="body__card">
+                    <h1>About Me</h1>
+
+                    <p>
+                        I am Rohan from Kolkata, B.Tech in Robotics & AI (2021 batch).
+                        I have knowledge and worked with statistics, data wrangling, feature engineering, data analysis, machine learning and deep learning algorithms.
+                        Worked on kaggle projects and build full stack web pages with with react & node. 
+                        I am looking for job opportunities in the field of Data Science and AI.
+                    </p>
+                </div>
+
+                <div className="body__card">
+                    <h1>VALORANT CLONE</h1>
+
+                    <video 
+                        autoPlay 
+                        loop 
+                        muted
+                        style={{
+                            // position: "absolute",
+                            objectFit: "cover",
+                            height: "80%",
+                            width: "80%",
+                            cursor: "pointer",
+                        }}
+                        onClick={() => window.open("https://github.com/RohanDeySarkar/RIOT-Games-Clone", '_blank')}
+                    >
+                        <source src={sampleVideo} type='video/mp4' />
+                    </video>
+                </div>
+
+                <div className="body__card">
+                    <h1>React.js Projects</h1>
 
                     <div className="projects">
                         <Carousel responsive={responsive}>
@@ -57,35 +112,20 @@ function Body() {
                 </div>
 
                 <div className="body__card">
-                    <h1>About Me</h1>
-
-                    <p>
-                        I am a junior data scientist and a web developer.
-                        I am coding in JavaScript & Python for almost 3 years.
-                        Done internships & currently a freelancer
-                        I am open for full time and contract works
-                    </p>
-                </div>
-
-                <div className="body__card">
                     <h1>Skills</h1>
 
                     <div className="skills">
-                        <Fade bottom>
-                            {skills.map((skill) =>
-                                <div className="skill"> 
-                                    <p>{skill}</p>
-                                </div>
-                            )}
-                        </Fade>
+                        {skills.map((skill) =>
+                            <div className="skill"> 
+                                <p>{skill}</p>
+                            </div>
+                        )}
                     </div>
                 </div>
-
-                
                 
                 <div 
                     className="body__resume"
-                    onClick={() => window.open("https://drive.google.com/file/d/1EgoBtxTVTWi1La-zpZYjeMc-nTTriNaC/view?usp=sharing", '_blank')}
+                    onClick={() => window.open("https://drive.google.com/file/d/1Q-PyyHxJ2i_f592adepwkvYtzm2puT2K/view?usp=sharing", '_blank')}
                 >
                     <GetAppIcon />
                     <h1>Resume</h1>

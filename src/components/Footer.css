@@ -1,7 +1,31 @@
 .footer {
     display: flex;
     justify-content: space-evenly;
-    padding: 10px 40px;
+    padding: 1% 4%;
     color: rgb(220, 220, 220);
     background-color: rgb(62, 62, 62);
+}
+
+.footer > h3 {
+    font-size: 1.6vw !important;
+}
+
+.footer > h3 > span {
+    color: transparent;
+    animation: rotate 4s ease-in infinite alternate;
+}
+
+@keyframes rotate {
+    0% {
+        text-shadow: 0 0 0 #2579e8;
+    }
+    33% {
+        text-shadow: 0 0 0 #ae2fe1;
+    }
+    66% {
+        text-shadow: 0 0 0 #f839f2;
+    }
+    100% {
+        text-shadow: 0 0 0 #ed3e3e;
+    }
 }

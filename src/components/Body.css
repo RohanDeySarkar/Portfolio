@@ -1,29 +1,33 @@
 .body {
-    padding: 20px;
+    padding:10px 20px;
     border-bottom: 1px solid whitesmoke;
 }
 
 .body__card {
-    padding: 30px;
+    padding: 2%;
+    /* padding: 30px; */
     text-align: center;
     color: rgb(218, 218, 218);
     background-color: black;
-    margin-bottom: 30px;
+    margin-bottom: 3%;
     border-radius: 10px;
 }
 
 .body__card > h1 {
     flex: 0.4;
-    font-size: 80px;
-    font-weight: 500;
-    letter-spacing: 5px;
+    font-size: 2.5vw;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    /* text-align: center; */
 }
 
 .body__card > p {
     flex: 0.6;
-    font-size: 20px;
-    font-weight: 100;
-    margin-top: 20px;
+    margin-top: 2%;
+    font-size: 1.2vw !important;
+    font-weight: 800;
+    letter-spacing: 0.5px;
 }
 
 .skills {
@@ -35,22 +39,49 @@
 
 .skill {
     /* width: fit-content; */
-    padding: 15px;
+    padding: 1.2%;
     border-radius: 40px;
     color: black;
     background-color: rgb(218, 218, 218);
-    margin: 10px;
+    margin: 0.8%;    
 }
 
 .skill > p {
-    font-size: 20px;
-    font-weight: 700;
-    letter-spacing: 2px;
+    font-size: 1.3vw !important;
+    letter-spacing: 0.5px !important;
+    font-weight: 700 !important;
 }
 
+.skill:nth-child(even) {
+    animation: bounce 2s ease-in infinite alternate;
+}
+
+.skill:nth-child(odd) {
+    animation: bounceY 2s ease-in infinite alternate;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-10%);
+    }
+}
+
+@keyframes bounceY {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(10%);
+    }
+} 
+
 .projects {
-    margin-top: 20px;
-    padding: 10px;
+    margin-top: 2vh;
+    /* padding: 10px; */
+    /* background-color: aqua; */
 }
 
 .project {
@@ -58,6 +89,7 @@
     margin: 5px;
     cursor: pointer;
     /* text-align: center; */
+    /* height: fit-content; */
 }
 
 .project:hover {
@@ -66,13 +98,21 @@
     opacity: 0.8;
 }
 
+.project > h3 {
+    font-size: 1.8vw !important;
+    letter-spacing: 0.5px !important;
+}
+
 .project > p {
+    font-size: 1vw !important;
     text-transform: lowercase;
+    font-weight: 400;
+    letter-spacing: 0.5px !important;
 }
 
 .project > img {
-    height: 300px;
-    width: 400px;
+    height: 40vh;
+    width: 40vw;
     object-fit: contain;
 }
 
@@ -84,18 +124,20 @@
     color: rgb(218, 218, 218);
     background-color: rgb(0, 0, 0);
     cursor: pointer;
+    /* padding: 10px; */
+    padding: 1.5%;
 }
 
 .body__resume > .MuiSvgIcon-root {
-    font-size: 40px;
-    margin-top: 5px;
+    font-size: 2.5vw !important;
+    margin-top: 0.5%;
 }
 
 .body__resume > h1 {
-    font-size: 40px;
+    font-size: 2.5vw;
     text-transform: uppercase;
     font-weight: 700;
-    letter-spacing: 5px;
+    letter-spacing: 6px;
     padding-left: 10px;
 }
 

@@ -1,15 +1,23 @@
+import React, { Suspense } from 'react';
+
 import './App.css';
 
-import Header from './components/Header';
-import Body from './components/Body';
-import Footer from './components/Footer';
+// import Header from './components/Header';
+// import Body from './components/Body';
+// import Footer from './components/Footer';
+
+const Header = React.lazy(() => import('./components/Header'));
+const Body = React.lazy(() => import('./components/Body'));
+const Footer = React.lazy(() => import('./components/Footer'));
 
 function App() {
   return (
     <div className="app">
-      <Header />
-      <Body />
-      <Footer />
+      <Suspense fallback={<div>Loading...</div>}>
+        <Header />
+        <Body />
+        <Footer />
+      </Suspense>
     </div>
   );
 }

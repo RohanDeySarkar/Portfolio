@@ -1,4 +1,11 @@
 export const projects = [
+    
+    {
+        image: "https://raw.githubusercontent.com/RohanDeySarkar/Covid-19-Tracker/main/covid-meter-sampleImg.png",
+        title: "Covid-19 Tracker",
+        description: "Track Live Status",
+        url: "https://github.com/RohanDeySarkar/Covid-19-Tracker"
+    },
     {
         image: "https://github.com/RohanDeySarkar/Amazon-clone/blob/master/Screenshot%20(95).png?raw=true",
         title: "Amazon Clone",
@@ -24,16 +31,10 @@ export const projects = [
         url: "https://github.com/RohanDeySarkar/Code-editor"
     },
     {
-        image: "https://raw.githubusercontent.com/RohanDeySarkar/Covid-19-Tracker/main/covid-meter-sampleImg.png",
-        title: "Covid-19 Tracker",
-        description: "Track Live Status",
-        url: "https://github.com/RohanDeySarkar/Covid-19-Tracker"
-    },
-    {
-        image: "https://media-exp1.licdn.com/dms/image/C5622AQEZVXo5x9bEdg/feedshare-shrink_800/0/1588508760958?e=1615420800&v=beta&t=A2DDXtPfspWprd9ItUYLZ9RXMpdRxiFvjLdU3WDQG5Q",
-        title: "Covid cases prediction",
-        description: "predict new deaths",
-        url: "https://www.kaggle.com/rohandeysarkar/countires-with-most-covid19-cases-eda"
+        image: "https://github.com/RohanDeySarkar/Hatchways-assessment-frontEnd/raw/master/Screenshot%20(327).png?raw=true",
+        title: "Hatchways Assessment",
+        description: " Fetch and show student details, Add tags, Search by name",
+        url: "https://github.com/RohanDeySarkar/Hatchways-assessment-frontEnd"
     },
     {
         image: "https://github.com/RohanDeySarkar/WhatsApp-clone/raw/master/Screenshot%20(38).png?raw=true",
@@ -60,19 +61,19 @@ export const projects = [
         url: "https://github.com/RohanDeySarkar/google-clone"
     },
     {
-        image: "https://camo.githubusercontent.com/bebdde5d203cc6a28e5777e8555d43a6c3cfda4cc0a2ee36b8523d290f978220/68747470733a2f2f6d656469612d657870312e6c6963646e2e636f6d2f646d732f696d6167652f43353632324151484563375f644345665958512f6665656473686172652d736872696e6b5f3830302d616c7465726e61746976652f302f313631313333323131313738303f653d3136313432313132303026763d6265746126743d35746b3545576d7951556152574a5269754b6a6f6173327a363861755f717074704d596646356137705a38",
+        image: "https://tinder.com/static/tinder.png",
         title: "Tinder Clone",
         description: "swipe left/right make it happen",
         url: "https://github.com/RohanDeySarkar/Tinder-clone"
     },
     {
-        image: "https://camo.githubusercontent.com/84b715618f63e5d44d7b32f9615880c2fbd7313c8c3775a71caf784eb8375672/68747470733a2f2f6d656469612d657870312e6c6963646e2e636f6d2f646d732f696d6167652f433536323241514574385a58586661766f69412f6665656473686172652d736872696e6b5f313238302f302f313630353933323836303834343f653d3136313438313630303026763d6265746126743d494b6846514e7755455448696869675a6167653975782d786e6b33546c4a746f2d4d496230515a50507a4d",
+        image: "https://www.scdn.co/i/_global/open-graph-default.png",
         title: "Spotify Clone",
         description: "Authentication and playlist play",
         url: "https://github.com/RohanDeySarkar/spotify-clone"
     },
     {
-        image: "https://camo.githubusercontent.com/b6e5b0c1b089a00718f51b8230e0ffe3a1ce26a23b22c1763fb70efd947acc2e/68747470733a2f2f6d656469612d657870312e6c6963646e2e636f6d2f646d732f696d6167652f43353632324151456f555162477056413973672f6665656473686172652d736872696e6b5f323034385f313533362f302f313631313234303534373237343f653d3136313534323038303026763d6265746126743d6c397163454f4f74553038556858434d57674e3849315235486c4b4d4a4c3067627132694f6643464c6577",
+        image: "https://www.snapchat.com/global/social-lg.jpg",
         title: "Snapchat Clone",
         description: "firebase database and authentication",
         url: "https://github.com/RohanDeySarkar/Snapchat-clone"
@@ -83,8 +84,58 @@ export const projects = [
         description: "",
         url: "https://github.com/RohanDeySarkar/Hulu-clone"
     },
+];
 
-
+export const aiProjects = [
+    {
+        image: "http://thedo.osteopathic.org/wp-content/uploads/2017/11/heartbeat-1.jpg",
+        title: "Mortality Prediction",
+        description: "predicting if a patient will live or die",
+        url: "https://www.kaggle.com/rohandeysarkar/mortality-prediction-of-a-patient"
+    },
+    {
+        image: "https://www.fda.gov/files/covid19-1600x900.jpg",
+        title: "Covid Cases Analysis",
+        description: "Country-wise deep analysis",
+        url: "https://www.kaggle.com/rohandeysarkar/countires-with-most-covid19-cases-eda"
+    },
+    {
+        image: "https://cdn-res.keymedia.com/cms/images/ca/155/0348_637304012816162034.jpg",
+        title: "House Price Prediction",
+        description: "analysing/predicting house prices",
+        url: "https://www.kaggle.com/rohandeysarkar/factors-affecting-house-prices-full-eda"
+    },
+    {
+        image: "https://www.nasdaq.com/sites/acquia.prod/files/image/29525db076bcc42505a356e55dbe94f38b28530b_getty-stock-market-data.jpg?1697968833",
+        title: "Sales Prediction",
+        description: "Time Series prediction",
+        url: "https://www.kaggle.com/rohandeysarkar/future-sales-eda-time-series"
+    },
+    {
+        image: "https://storage.googleapis.com/kaggle-competitions/kaggle/6565/media/daimler-mercedes%20V02.jpg",
+        title: "Mercedes Bench Test Prediction",
+        description: "predicting bench test time for a car",
+        url: "https://www.kaggle.com/rohandeysarkar/mercedes-benz-eda-feature-engineering"
+    },
+    {
+        image: "https://www.opencodez.com/wp-content/uploads/2019/06/word-image-13.png",
+        title: "NLP & Webscraping",
+        description: "trending hashtags suggestion algorithm",
+        url: "https://www.kaggle.com/rohandeysarkar/hashtag-suggestions-nlp-webscraping"
+    },
+    {
+        image: "https://miro.medium.com/max/700/1*HgXA9v1EsqlrRDaC_iORhQ.png",
+        title: "Text Classification With RNN",
+        description: "classifying a text category",
+        url: "https://github.com/RohanDeySarkar/Kaggle-challenges/blob/master/text_classification_rnn_.ipynb"
+    },
+    
+    {
+        image: "https://www.blumeglobal.com/wp-content/uploads/2018/11/NLP-image.jpg",
+        title: "NLP Project",
+        description: "Analyzing/processing text data",
+        url: "https://www.kaggle.com/rohandeysarkar/nlp-tricks-on-customer-support-data-twitter"
+    },
     {
         image: "https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2019/03/Plot-of-the-First-Nine-Photos-of-Dogs-in-the-Dogs-vs-Cats-Dataset.png",
         title: "Multiple Image Classification",
@@ -104,23 +155,18 @@ export const projects = [
         url: "https://www.kaggle.com/rohandeysarkar/osic-pulmonary-fibrosis-progression-eda"
     },
     {
-        image: "https://exceldashboardschool.com/wp-content/uploads/2013/10/sales-forecast-chart-new.png",
-        title: "Sales Prediction",
-        description: "Time Series prediction",
-        url: "https://www.kaggle.com/rohandeysarkar/future-sales-eda-time-series"
+        image: "https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/123140604/original/4758e3126da11784c4435d63b30ab1bfd80d0cd4/create-a-bot-foryour-instagram-account.png",
+        title: "Instagram Bot",
+        description: "automated bot fetch and like posts",
+        url: " https://github.com/RohanDeySarkar/Selenium-Bots/blob/main/insta_like.py"
     },
     {
-        image: "https://media-exp1.licdn.com/dms/image/C4D22AQGoDYwIYYVKbw/feedshare-shrink_1280/0/1593322607699?e=1615420800&v=beta&t=3rCyiuNu8utqmq5EOHiF3Qj9QdC4T7JA0UPHvUfSJs0",
-        title: "NLP",
-        description: "Analysing text data",
-        url: "https://www.kaggle.com/rohandeysarkar/nlp-tricks-on-customer-support-data-twitter"
+        image: "https://devblog.axway.com/wp-content/uploads/blog-572x320-twitter-bot.jpg",
+        title: "Twitter Sentimental Bot",
+        description: "automated bot replies to tweets by analyzing their sentiment",
+        url: "https://github.com/RohanDeySarkar/twitter_bot/blob/master/twitter_bot.py"
     },
-    {
-        image: "https://media-exp1.licdn.com/dms/image/C4D22AQGiYn1EBkAJ7g/feedshare-shrink_800/0/1592800244168?e=1615420800&v=beta&t=C8PzripsCNC_4fJCSSaf-ExqEi_xOMDsOx76LnVZnxE",
-        title: "House Price Prediction",
-        description: "analysing/predicting house prices",
-        url: "https://www.kaggle.com/rohandeysarkar/factors-affecting-house-prices-full-eda"
-    },
+   
 ];
 
 export const skills = [
@@ -128,18 +174,9 @@ export const skills = [
     "JavaScript", 
     "HTML/CSS",
     "SQL",
-    "react.js",
-    "node.js",
-    "express.js", 
-    "context-api", 
-    "rest api",
-    "material-ui",
-    "redux", 
-    "Firebase", 
-    "MongoDB",
-    "Pusher",
-    "PostgreSQL",
-    "Figma", 
+
+    "Statistics",
+    "Data Structures",
     "Pandas", 
     "Numpy", 
     "NLTK",
@@ -150,10 +187,23 @@ export const skills = [
     "scikit-learn",
     "BeautifulSoup", 
     "OpenCV", 
-    "Apache Spark",
-    " Visual Studio", 
+
+    "react.js",
+    "redux", 
+    "node.js",
+    "express.js",  
+    "rest api",
+    "material-ui",
+    
+    "Firebase", 
+    "MongoDB",
+    "Pusher",
+    "PostgreSQL",
+    
+    "Visual Studio", 
     "Selenium", 
     "Tweepy",  
+    "Apache Spark",
     "Tableau",
     "Dialogflow"
 ];

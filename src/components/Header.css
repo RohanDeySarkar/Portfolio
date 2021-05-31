@@ -10,9 +10,22 @@
 }
 
 .header__image {
-    height: 200px;
+    height: 10% !important;
+    min-height: 80px;
+    width: 10% !important;
+    min-width: 80px;
     object-fit: contain;
-    border-radius: 30px;
+    border-radius: 10%;
+    animation: top-up 2s ease-in forwards 1;
+}
+
+@keyframes top-up {
+    0% {
+        transform: translateY(-90%);
+    }
+    100% {
+        transform: translateX(0);
+    }
 }
 
 .header__details {
@@ -20,24 +33,37 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding-left: 40px;
+    padding-left: 5%;
     color: rgb(218, 218, 218);
 }
 
 .header__detailsDescription {
     flex: 1;
+    animation: right-to-left 2s ease-in forwards 1; 
 }
 
+@keyframes right-to-left {
+    0% {
+        transform: translateX(50%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+} 
+
 .header__detailsDescription > h1 {
-    font-size: 50px;
-    font-weight: 600;
-    letter-spacing: 6px;
+    /* font-size: 250%; */
+    font-weight: 700;
+    font-size: 2.8vw;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 .header__detailsDescription > h2 {
-    font-size: 20px;
+    /* font-size: 150%; */
     font-weight: 900;
     letter-spacing: 3px;
+    font-size: 1.5vw;
 }
 
 .header__detailsIcons {
@@ -46,15 +72,27 @@
     display: flex;
     justify-content: space-evenly;
     /* background-color: rebeccapurple; */
+    animation: left-to-right 2s ease-in forwards 1; 
 }
 
-.header__detailsIcons > .MuiSvgIcon-root {
-    font-size: 60px;
+@keyframes left-to-right {
+    0% {
+        transform: translateX(-50%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+} 
+
+.header__detailsIcons > .MuiSvgIcon-root,
+.kaggleIcon {
+    font-size: 4vw !important;
     cursor: pointer;
     transition: 200ms color ease-in-out;
 }
 
-.header__detailsIcons > .MuiSvgIcon-root:hover {
+.header__detailsIcons > .MuiSvgIcon-root:hover,
+.kaggleIcon:hover {
     color: rgb(255, 255, 255);
     transition: 400ms;
     transform: scale(1.03);
@@ -66,6 +104,11 @@
     }
     
     .header__detailsIcons {
-        padding-top: 20px;
+        padding-top: 4%;
+    }
+
+
+    .header__detailsDescription > h2 {
+        margin-top: 2%;
     }
 }

@@ -5,7 +5,7 @@ function Footer() {
     return (
         <div className="footer">
             <h3>Contact: deysarkarrohan@gmail.com</h3>
-            <h3>Made with React 💜</h3>
+            <h3>Made with React <span>💜</span></h3>
         </div>
     )
 }
