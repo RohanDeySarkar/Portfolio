@@ -1,2 +1,0 @@
-(this["webpackJsonpburning-resume"]=this["webpackJsonpburning-resume"]||[]).push([[7],{53:function(e,n,s){},66:function(e,n,s){"use strict";s.r(n);s(1),s(53);var c=s(0);n.default=function(){return Object(c.jsxs)("div",{className:"footer",children:[Object(c.jsx)("h3",{children:"Contact: deysarkarrohan@gmail.com"}),Object(c.jsxs)("h3",{children:["Made with React ",Object(c.jsx)("span",{children:"\ud83d\udc9c"})]})]})}}}]);
-//# sourceMappingURL=7.ae6271f0.chunk.js.map
