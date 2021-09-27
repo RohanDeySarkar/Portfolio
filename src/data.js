@@ -3,31 +3,31 @@ export const projects = [
     {
         image: "https://raw.githubusercontent.com/RohanDeySarkar/Covid-19-Tracker/main/covid-meter-sampleImg.png",
         title: "Covid-19 Tracker",
-        description: "Track Live Status",
+        description: "Track Live covid Status",
         url: "https://github.com/RohanDeySarkar/Covid-19-Tracker"
     },
     {
         image: "https://github.com/RohanDeySarkar/Amazon-clone/blob/master/Screenshot%20(95).png?raw=true",
         title: "Amazon Clone",
-        description: "Authentication, payment (FERN stack build)",
+        description: "login/signup, buy products",
         url: "https://github.com/RohanDeySarkar/Amazon-clone"
     },
     {
         image: "https://github.com/RohanDeySarkar/Slack-clone/raw/master/Screenshot%20(78).png?raw=true",
         title: "Slack Clone",
-        description: "Authentication, real-time database (fern stack)",
+        description: "Authentication, real-time database (redux & firebase)",
         url: "https://github.com/RohanDeySarkar/Slack-clone"
     },
     {
         image: "https://github.com/RohanDeySarkar/E-commerce-assessment-/raw/master/Screenshot%20(92).png?raw=true",
         title: "E-commerce Website",
-        description: "Authentication, routing (build with redux)",
+        description: "Authentication, page routing (build with redux)",
         url: "https://github.com/RohanDeySarkar/E-commerce-assessment-"
     },
     {
         image: "https://github.com/RohanDeySarkar/Code-editor/raw/master/sampleImg.png?raw=true",
         title: "JS Code Editor",
-        description: "Authentication, upload/edit/save js files",
+        description: "login, upload/edit/save js files",
         url: "https://github.com/RohanDeySarkar/Code-editor"
     },
     {
@@ -39,8 +39,8 @@ export const projects = [
     {
         image: "https://github.com/RohanDeySarkar/WhatsApp-clone/raw/master/Screenshot%20(38).png?raw=true",
         title: "WhatsApp Clone",
-        description: "real-time database, authentication (mern stack)",
-        url:"https://github.com/RohanDeySarkar/WhatsApp-clone"
+        description: "built with next.js & firebase",
+        url:"https://github.com/RohanDeySarkar/Whatsapp-Clone-nextjs"
     },
     {
         image: "https://github.com/RohanDeySarkar/iMessage-clone/raw/master/iMessage_sampleImg.png?raw=true",
@@ -61,7 +61,7 @@ export const projects = [
         url: "https://github.com/RohanDeySarkar/google-clone"
     },
     {
-        image: "https://tinder.com/static/tinder.png",
+        image: "https://static.dezeen.com/uploads/2017/08/tinder-redesign-graphics_dezeen_hero-1.jpg",
         title: "Tinder Clone",
         description: "swipe left/right make it happen",
         url: "https://github.com/RohanDeySarkar/Tinder-clone"
@@ -81,7 +81,7 @@ export const projects = [
     {
         image: "https://raw.githubusercontent.com/RohanDeySarkar/Hulu-clone/master/hulu-clone-sampleImg.png",
         title: "Hulu Clone",
-        description: "",
+        description: "fetch and show movies/tv",
         url: "https://github.com/RohanDeySarkar/Hulu-clone"
     },
 ];
@@ -94,33 +94,52 @@ export const aiProjects = [
         url: "https://www.kaggle.com/rohandeysarkar/mortality-prediction-of-a-patient"
     },
     {
-        image: "https://www.fda.gov/files/covid19-1600x900.jpg",
-        title: "Covid Cases Analysis",
-        description: "Country-wise deep analysis",
-        url: "https://www.kaggle.com/rohandeysarkar/countires-with-most-covid19-cases-eda"
+        image: "https://health.clevelandclinic.org/wp-content/uploads/sites/3/2020/02/brainTumor-475447149-770x533-1.jpg",
+        title: "Brain Tumor Prediction",
+        description: "predicting brain tumor based on mri scan",
+        url: "https://www.kaggle.com/rohandeysarkar/tumor-classification"
     },
     {
         image: "https://cdn-res.keymedia.com/cms/images/ca/155/0348_637304012816162034.jpg",
         title: "House Price Prediction",
-        description: "analysing/predicting house prices",
+        description: "analyzing factors & predicting house prices",
         url: "https://www.kaggle.com/rohandeysarkar/factors-affecting-house-prices-full-eda"
     },
     {
+        image: "https://thumbor.forbes.com/thumbor/711x474/https://specials-images.forbesimg.com/imageserve/5fe1787bee8ad9b6e601d5f7/960x0.jpg?fit=scale",
+        title: "Zillow’s Home Value Prediction",
+        description: "analyzing factors which affect real estate price",
+        url: "https://www.kaggle.com/rohandeysarkar/zillow-prize-eda-feature-engineering"
+    },
+    {
         image: "https://www.nasdaq.com/sites/acquia.prod/files/image/29525db076bcc42505a356e55dbe94f38b28530b_getty-stock-market-data.jpg?1697968833",
-        title: "Sales Prediction",
-        description: "Time Series prediction",
+        title: "Future Sales Prediction",
+        description: "time series data pre-processing & modeling",
         url: "https://www.kaggle.com/rohandeysarkar/future-sales-eda-time-series"
     },
     {
         image: "https://storage.googleapis.com/kaggle-competitions/kaggle/6565/media/daimler-mercedes%20V02.jpg",
         title: "Mercedes Bench Test Prediction",
-        description: "predicting bench test time for a car",
+        description: "predicting the bench test time for a car",
         url: "https://www.kaggle.com/rohandeysarkar/mercedes-benz-eda-feature-engineering"
+    },
+    {
+        image: "https://www.fda.gov/files/covid19-1600x900.jpg",
+        title: "Covid Cases Analysis",
+        description: "Country-wise cases analysis",
+        url: "https://www.kaggle.com/rohandeysarkar/countires-with-most-covid19-cases-eda"
+    },
+    
+    {
+        image: "https://storage.googleapis.com/kaggle-media/competitions/google-research/human_computable_dimensions_1.png",
+        title: "Google QUEST Q&A Labeling",
+        description: "predicting an answer based user's question",
+        url: "https://www.kaggle.com/rohandeysarkar/google-quest-eda-feature-engineering"
     },
     {
         image: "https://www.opencodez.com/wp-content/uploads/2019/06/word-image-13.png",
         title: "NLP & Webscraping",
-        description: "trending hashtags suggestion algorithm",
+        description: "instagram/twitter hashtags suggesting algorithm",
         url: "https://www.kaggle.com/rohandeysarkar/hashtag-suggestions-nlp-webscraping"
     },
     {
@@ -137,27 +156,27 @@ export const aiProjects = [
         url: "https://www.kaggle.com/rohandeysarkar/nlp-tricks-on-customer-support-data-twitter"
     },
     {
-        image: "https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2019/03/Plot-of-the-First-Nine-Photos-of-Dogs-in-the-Dogs-vs-Cats-Dataset.png",
+        image: "https://www.researchgate.net/profile/Muhammad-Aamir-28/publication/336304381/figure/fig1/AS:812484013326338@1570722692740/A-simplified-CNN-architecture-for-dog-Classification.ppm",
         title: "Multiple Image Classification",
-        description: "CNN object classification",
+        description: "CNN object classification with tensorflow",
         url: "https://www.kaggle.com/rohandeysarkar/ultimate-image-classification-guide-2020"
     },
     {
-        image: "http://i.stack.imgur.com/mOb2n.png",
+        image: "https://d1m75rqqgidzqn.cloudfront.net/wp-data/2020/07/02173852/shutterstock_680761540-1.jpg",
         title: "OpenCV Image Classification",
-        description: "opencv image classification",
+        description: "image classification with opencv and tensorflow",
         url: "https://www.youtube.com/watch?v=_BaKsFazN3E"
     },
     {
-        image: "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F603584%2F4f30bdd2ffddda01f8ec5d857171ca93%2FKaggleCompetition_Description_700x700_option1-orig.png?generation=1588791895230128&alt=media",
-        title: "Prediction of  Pulmonary Fibrosis",
+        image: "https://resize.indiatvnews.com/en/resize/newbucket/715_-/2020/11/lungs-1604756622.jpg",
+        title: "Analysis of  Pulmonary Fibrosis",
         description: "analysing Pulmonary Fibrosis in patients",
         url: "https://www.kaggle.com/rohandeysarkar/osic-pulmonary-fibrosis-progression-eda"
     },
     {
         image: "https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/123140604/original/4758e3126da11784c4435d63b30ab1bfd80d0cd4/create-a-bot-foryour-instagram-account.png",
         title: "Instagram Bot",
-        description: "automated bot fetch and like posts",
+        description: "automated bot fetch and like insta posts",
         url: " https://github.com/RohanDeySarkar/Selenium-Bots/blob/main/insta_like.py"
     },
     {
@@ -184,22 +203,26 @@ export const skills = [
     "Seaborn", 
     "TensorFlow", 
     "Keras", 
-    "scikit-learn",
+    "ScikitLearn",
     "BeautifulSoup", 
     "OpenCV", 
 
-    "react.js",
-    "redux", 
-    "node.js",
-    "express.js",  
-    "rest api",
-    "material-ui",
+    "React.js",
+    "React Native",
+    "Redux",
+    "Next.js" ,
+    "Express.js",
+    "GraphQL",
+    "MATERIAL-UI",
+    "Styled Components",
     
     "Firebase", 
     "MongoDB",
     "Pusher",
     "PostgreSQL",
     
+    "Docker",
+    "ElasticSearch",
     "Visual Studio", 
     "Selenium", 
     "Tweepy",  

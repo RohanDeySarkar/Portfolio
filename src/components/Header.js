@@ -7,13 +7,14 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import {ReactComponent as KaggleIcon} from './kaggle.svg'
 
+import profilePic from './rohan.jpg'
+
 function Header() {
     return (
         <div className="header">
             <img
                 className="header__image"
-                src="https://media-exp1.licdn.com/dms/image/C5603AQGavq3xCx7fBQ/profile-displayphoto-shrink_200_200/0/1614529958951?e=1625702400&v=beta&t=dtw9OfDcASQtiNX2ge1VqK-zUFgviJqhFbFWPqrNgdM"
-                // src={require("./rohan.jpg")}
+                src={profilePic}
                 alt=""
             />
 

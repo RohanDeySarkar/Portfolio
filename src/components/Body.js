@@ -40,7 +40,7 @@ function Body() {
                     <h1>Machine Learning / AI Projects</h1>
 
                     <div className="projects">
-                        <Carousel responsive={responsive}>
+                        <Carousel infinite={true} autoPlay={true} autoPlaySpeed={1600} responsive={responsive}>
                             {aiProjects.map(({image, title, description, url}) => 
                                 <div 
                                     className="project"
@@ -63,9 +63,8 @@ function Body() {
 
                     <p>
                         I am Rohan from Kolkata, B.Tech in Robotics & AI (2021 batch).
-                        I have knowledge and worked with statistics, data wrangling, feature engineering, data analysis, machine learning and deep learning algorithms.
-                        Worked on kaggle projects and build full stack web pages with with react & node. 
-                        I am looking for job opportunities in the field of Data Science and AI.
+                        I have knowledge and has done projects consists of statistics, data wrangling, feature engineering, data analysis, machine learning and deep learning.
+                        Worked on kaggle projects and build full stack web pages with with react & node.
                     </p>
                 </div>
 
@@ -93,7 +92,7 @@ function Body() {
                     <h1>React.js Projects</h1>
 
                     <div className="projects">
-                        <Carousel responsive={responsive}>
+                        <Carousel infinite={true} autoPlay={true} autoPlaySpeed={1600} responsive={responsive}>
                             {projects.map(({image, title, description, url}) => 
                                 <div 
                                     className="project"

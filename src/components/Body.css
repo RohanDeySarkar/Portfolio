@@ -19,7 +19,22 @@
     text-transform: uppercase;
     font-weight: 800;
     letter-spacing: 0.5px;
-    /* text-align: center; */
+    text-align: center;
+
+    background: linear-gradient(to right, 
+    #ffffff 20%, #e6e6e6 30%, #e6e6e6 70%, #ffffff 80%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    background-size: 200% auto;
+    animation: hue 7s ease-in-out infinite alternate;
+}
+
+@keyframes hue {
+    to {
+        background-position: 200%;
+    }
 }
 
 .body__card > p {
@@ -28,7 +43,23 @@
     font-size: 1.2vw !important;
     font-weight: 800;
     letter-spacing: 0.5px;
+
+    background: linear-gradient(to right, 
+    rgb(241, 47, 144) 20%, rgb(182, 22, 235) 30%, rgb(182, 22, 235) 70%, rgb(241, 47, 144) 80%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    background-size: 200% auto;
+    animation: hue_p 7s ease-in-out infinite alternate;
 }
+
+@keyframes hue_p {
+    to {
+        background-position: 200%;
+    }
+}
+
 
 .skills {
     display: flex;
@@ -41,8 +72,7 @@
     /* width: fit-content; */
     padding: 1.2%;
     border-radius: 40px;
-    color: black;
-    background-color: rgb(218, 218, 218);
+    color: whitesmoke;
     margin: 0.8%;    
 }
 
@@ -53,10 +83,12 @@
 }
 
 .skill:nth-child(even) {
+    background-color: rgb(182, 22, 235);
     animation: bounce 2s ease-in infinite alternate;
 }
 
 .skill:nth-child(odd) {
+    background-color: rgb(241, 47, 144);
     animation: bounceY 2s ease-in infinite alternate;
 }
 
@@ -101,6 +133,15 @@
 .project > h3 {
     font-size: 1.8vw !important;
     letter-spacing: 0.5px !important;
+    
+    background: linear-gradient(to right, 
+    rgb(241, 47, 144) 20%, rgb(182, 22, 235) 30%, rgb(182, 22, 235) 70%, rgb(241, 47, 144) 80%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    background-size: 200% auto;
+    animation: hue_p 7s ease-in-out infinite alternate;
 }
 
 .project > p {
@@ -108,6 +149,15 @@
     text-transform: lowercase;
     font-weight: 400;
     letter-spacing: 0.5px !important;
+    
+    background: linear-gradient(to right, 
+    rgb(241, 47, 144) 20%, rgb(182, 22, 235) 30%, rgb(182, 22, 235) 70%, rgb(241, 47, 144) 80%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    background-size: 200% auto;
+    animation: hue_p 7s ease-in-out infinite alternate;
 }
 
 .project > img {
